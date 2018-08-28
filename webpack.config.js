@@ -29,17 +29,14 @@ module.exports = {
 		rules: [
 			{ test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
 			{ test: /\.scss$/, loader: [
-				MiniCssExtractPlugin.loader,
-				// 'style-loader',
+				process.env.NODE_ENV !== 'production' ? 'style-loader' : MiniCssExtractPlugin.loader,
 				'css-loader',
 				sassCongif
-				// process.env.NODE_ENV !== 'production' ? sassCongif : MiniCssExtractPlugin.loader
 			]}
 		]
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: 'Spend a billion dollars',
 			filename: 'index.html',
 			template: path.resolve(__dirname, './src/index.html')
 		}),

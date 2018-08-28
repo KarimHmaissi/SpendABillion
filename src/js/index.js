@@ -1,9 +1,18 @@
 import '../scss/index.scss';
-import cluster from 'clusterize.js';
+// import cluster from 'clusterize.js';
 import React from 'react';
 import reactDom from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import rootReducer from './reducers'
 import App from './app';
 
+const store = createStore(rootReducer);
+
 console.log('Running');
-console.log(cluster);
-reactDom.render(<App />, document.getElementById('app'));
+
+reactDom.render(
+	<Provider store={store}>
+		<App />
+	</Provider>,
+	document.getElementById('app'));
