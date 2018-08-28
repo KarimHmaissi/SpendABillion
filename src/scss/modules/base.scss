@@ -1,0 +1,13 @@
+$base-font-color: #000;
+$base-font-size: 14px;
+$base-font-weight: 400;
+$base-line-height: 1.6;
+
+$neat-grid: (
+  columns: 12,
+  gutter: 20px,
+);
+
+.app {
+	@include grid-container;
+}

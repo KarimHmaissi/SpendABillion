@@ -1,5 +1,16 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+const neatPaths = require('bourbon-neat').includePaths;
+
+const sassCongif = {
+	loader: 'sass-loader',
+	options: {
+		sourceMap: true,
+		includePaths: neatPaths
+	}
+};
 
 module.exports = {
 	mode: 'development',
@@ -18,9 +29,11 @@ module.exports = {
 		rules: [
 			{ test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
 			{ test: /\.scss$/, loader: [
-				'style-loader',
+				MiniCssExtractPlugin.loader,
+				// 'style-loader',
 				'css-loader',
-				'sass-loader'
+				sassCongif
+				// process.env.NODE_ENV !== 'production' ? sassCongif : MiniCssExtractPlugin.loader
 			]}
 		]
 	},
@@ -29,6 +42,10 @@ module.exports = {
 			title: 'Spend a billion dollars',
 			filename: 'index.html',
 			template: path.resolve(__dirname, './src/index.html')
-		})
+		}),
+		new MiniCssExtractPlugin({
+            filename: "[name].css",
+            chunkFilename: "[id].css"
+        })
 	]
 };

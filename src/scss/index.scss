@@ -1,1 +1,9 @@
 // MAIN STYLES
+@import "neat";
+
+@import 'modules/base';
+@import 'modules/normalize';
+
+@import 'partials/_buttons';
+@import 'partials/_nav';
+@import 'partials/_typography';
