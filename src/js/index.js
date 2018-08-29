@@ -7,7 +7,15 @@ import { createStore } from 'redux';
 import rootReducer from './reducers';
 import App from './app';
 
-const store = createStore(rootReducer);
+import mockData from './mockData.json';
+
+/* eslint-disable no-underscore-dangle */
+const store = createStore(
+  rootReducer,
+  mockData,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+);
+/* eslint-enable */
 
 reactDom.render(
   <Provider store={store}>

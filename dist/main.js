@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./assets/privateIslands.png":
+/*!***********************************!*\
+  !*** ./assets/privateIslands.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "7f65445f1fa441a14f791e4d582eb0d6.png";
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js?!./src/scss/index.scss":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--5-2!./src/scss/index.scss ***!
@@ -98,7 +109,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".app::after {\n  clear: both;\n  content: \"\";\n  display: block; }\n\n/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in iOS.\n */\nhtml {\n  line-height: 1.15;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers.\n */\nbody {\n  margin: 0; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * Remove the gray background on active links in IE 10.\n */\na {\n  background-color: transparent; }\n\n/**\n * 1. Remove the bottom border in Chrome 57-\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Remove the border on images inside links in IE 10.\n */\nimg {\n  border-style: none; }\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers.\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; }\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0; }\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText; }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  vertical-align: baseline; }\n\n/**\n * Remove the default vertical scrollbar in IE 10+.\n */\ntextarea {\n  overflow: auto; }\n\n/**\n * 1. Add the correct box sizing in IE 10.\n * 2. Remove the padding in IE 10.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */ }\n\n/**\n * Remove the inner padding in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in Edge, IE 10+, and Firefox.\n */\ndetails {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/* Misc\n   ========================================================================== */\n/**\n * Add the correct display in IE 10+.\n */\ntemplate {\n  display: none; }\n\n/**\n * Add the correct display in IE 10.\n */\n[hidden] {\n  display: none; }\n\nbody {\n  color: #000;\n  font-size: 14px;\n  line-height: 1.6;\n  font-weight: 400; }\n", ""]);
+exports.push([module.i, "body {\n  background: #080F16; }\n\n.app::after {\n  clear: both;\n  content: \"\";\n  display: block; }\n\n/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in iOS.\n */\nhtml {\n  line-height: 1.15;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers.\n */\nbody {\n  margin: 0; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * Remove the gray background on active links in IE 10.\n */\na {\n  background-color: transparent; }\n\n/**\n * 1. Remove the bottom border in Chrome 57-\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Remove the border on images inside links in IE 10.\n */\nimg {\n  border-style: none; }\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers.\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; }\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0; }\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText; }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  vertical-align: baseline; }\n\n/**\n * Remove the default vertical scrollbar in IE 10+.\n */\ntextarea {\n  overflow: auto; }\n\n/**\n * 1. Add the correct box sizing in IE 10.\n * 2. Remove the padding in IE 10.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */ }\n\n/**\n * Remove the inner padding in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in Edge, IE 10+, and Firefox.\n */\ndetails {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/* Misc\n   ========================================================================== */\n/**\n * Add the correct display in IE 10+.\n */\ntemplate {\n  display: none; }\n\n/**\n * Add the correct display in IE 10.\n */\n[hidden] {\n  display: none; }\n\nbody {\n  color: #fff;\n  font-size: 14px;\n  line-height: 1.6;\n  font-weight: 400; }\n", ""]);
 
 // exports
 
@@ -23607,48 +23618,219 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _CategoriesContainer = __webpack_require__(/*! ./containers/CategoriesContainer */ "./src/js/containers/CategoriesContainer.js");
+
+var _CategoriesContainer2 = _interopRequireDefault(_CategoriesContainer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var App = function App() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(_CategoriesContainer2.default, null)
+  );
+};
+// import Billions from './containers/BillionsContainer';
+exports.default = App;
+
+/***/ }),
+
+/***/ "./src/js/components/Category.js":
+/*!***************************************!*\
+  !*** ./src/js/components/Category.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _privateIslands = __webpack_require__(/*! ../../../assets/privateIslands.png */ "./assets/privateIslands.png");
+
+var _privateIslands2 = _interopRequireDefault(_privateIslands);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+var Category = function Category(_ref) {
+  var imgSrc = _ref.imgSrc,
+      title = _ref.title;
+  return _react2.default.createElement(
+    'li',
+    { className: 'category__item' },
+    _react2.default.createElement('img', { src: _privateIslands2.default, alt: title }),
+    _react2.default.createElement(
+      'h3',
+      null,
+      title
+    )
+  );
+};
 
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+Category.propTypes = {
+  imgSrc: _propTypes2.default.string.isRequired,
+  title: _propTypes2.default.string.isRequired
+};
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+exports.default = Category;
 
-var App = function (_React$Component) {
-  _inherits(App, _React$Component);
+/***/ }),
 
-  function App(props) {
-    _classCallCheck(this, App);
+/***/ "./src/js/components/CategoryList.js":
+/*!*******************************************!*\
+  !*** ./src/js/components/CategoryList.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
-  }
+"use strict";
 
-  _createClass(App, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'h2',
-          null,
-          'React is working'
-        )
-      );
-    }
-  }]);
 
-  return App;
-}(_react2.default.Component);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
-exports.default = App;
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _Category = __webpack_require__(/*! ./Category */ "./src/js/components/Category.js");
+
+var _Category2 = _interopRequireDefault(_Category);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CategoryList = function CategoryList(_ref) {
+  var categories = _ref.categories;
+  return _react2.default.createElement(
+    'div',
+    { className: 'category__wrapper' },
+    _react2.default.createElement(
+      'p',
+      null,
+      'Select a category of thing'
+    ),
+    _react2.default.createElement(
+      'ul',
+      { className: 'category__list' },
+      categories.map(function (cat) {
+        return _react2.default.createElement(_Category2.default, _extends({ key: cat.index }, cat));
+      })
+    )
+  );
+};
+
+CategoryList.propTypes = {
+  categories: _propTypes2.default.array.isRequired
+};
+
+exports.default = CategoryList;
+
+/***/ }),
+
+/***/ "./src/js/components/CategoryWrapper.js":
+/*!**********************************************!*\
+  !*** ./src/js/components/CategoryWrapper.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _CategoryList = __webpack_require__(/*! ./CategoryList */ "./src/js/components/CategoryList.js");
+
+var _CategoryList2 = _interopRequireDefault(_CategoryList);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// import ItemList from './ItemList';
+
+// const renderCategoryOrItem = (selectedCategory, items, categories) => (
+//   selectedCategory ? <ItemList items={items} /> : <CategoryList categories={categories} />
+// );
+
+// {renderCategoryOrItem(selectedCategory, items, categories)}
+var CategoryWrapper = function CategoryWrapper(_ref) {
+  var categories = _ref.categories;
+  return _react2.default.createElement(
+    'div',
+    { className: 'category__wrapper' },
+    _react2.default.createElement(_CategoryList2.default, { categories: categories })
+  );
+};
+
+CategoryWrapper.propTypes = {
+  categories: _propTypes2.default.array.isRequired
+  // items: PropTypes.array.isRequired,
+  // selectedCategory: PropTypes.string.isRequired,
+};
+
+exports.default = CategoryWrapper;
+
+/***/ }),
+
+/***/ "./src/js/containers/CategoriesContainer.js":
+/*!**************************************************!*\
+  !*** ./src/js/containers/CategoriesContainer.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _CategoryWrapper = __webpack_require__(/*! ../components/CategoryWrapper */ "./src/js/components/CategoryWrapper.js");
+
+var _CategoryWrapper2 = _interopRequireDefault(_CategoryWrapper);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var mapStateToProps = function mapStateToProps(state) {
+  return { categories: state.categories };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps)(_CategoryWrapper2.default);
 
 /***/ }),
 
@@ -23684,18 +23866,33 @@ var _app = __webpack_require__(/*! ./app */ "./src/js/app.js");
 
 var _app2 = _interopRequireDefault(_app);
 
+var _mockData = __webpack_require__(/*! ./mockData.json */ "./src/js/mockData.json");
+
+var _mockData2 = _interopRequireDefault(_mockData);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/* eslint-disable no-underscore-dangle */
+var store = (0, _redux.createStore)(_reducers2.default, _mockData2.default, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+/* eslint-enable */
+
 // import cluster from 'clusterize.js';
-var store = (0, _redux.createStore)(_reducers2.default);
-
-console.log('Running');
-
 _reactDom2.default.render(_react2.default.createElement(
-	_reactRedux.Provider,
-	{ store: store },
-	_react2.default.createElement(_app2.default, null)
+  _reactRedux.Provider,
+  { store: store },
+  _react2.default.createElement(_app2.default, null)
 ), document.getElementById('app'));
+
+/***/ }),
+
+/***/ "./src/js/mockData.json":
+/*!******************************!*\
+  !*** ./src/js/mockData.json ***!
+  \******************************/
+/*! exports provided: categories, items, selectedCategory, default */
+/***/ (function(module) {
+
+module.exports = {"categories":[{"index":1,"title":"Private Islands","imgSrc":"privateIslands.svg"},{"index":2,"title":"Luxury Cars","imgSrc":"luxuryCars.svg"},{"index":3,"title":"Sports Teams","imgSrc":"sportsTeams.svg"},{"index":4,"title":"Holidays","imgSrc":"holidays.svg"},{"index":5,"title":"Private Jets","imgSrc":"privateJets.svg"},{"index":6,"title":"Watches","imgSrc":"watches.svg"},{"index":7,"title":"Sports teams","imgSrc":"sportsTeam.svg"}],"items":[{"title":"Navy's Acre Island","description":"Unquestionably a turnkey property it features a gracious main cottage, a separate master cottage, three bedroom guest cottage and a four bunk waterside sleeping cabin. Designed by noted architect Peter Burton of C.A. Ventin Architect Ltd. and built to exacting standards by Paul Hannon Construction, the buildings, decks and boardwalks have been immaculately maintained and cared for.","imageUrl":"/img/NavysAcreIsland.jpg","priceFormatted":"$2,250,000","price":"2250000","url":"http://www.privateislandsonline.com/islands/navys-acre-island"},{"title":"Isla Palenquita","description":"Palenquita is self-standing Island and not a part of a bigger Island property, which is very valuable and special. It has total of 4.3 hectares of land and a small peninsula which is not included in this measurement but could be utilized as a helicopter pad or additional area. ","imageUrl":"/img/IslaPalenquita.jpg","priceFormatted":"$3,000,000","price":"3000000","url":"http://www.privateislandsonline.com/islands/isla-palenquita"},{"title":"North Saddle Caye","description":"North Saddle Caye, situated approximately 45 minutes ENE of the very popular, Placencia Peninsula, is a 4 acre private island paradise that has been fully developed, with all the comforts and amenities of a luxury estate.","imageUrl":"/img/NorthSaddleCaye.jpg","priceFormatted":"$6,000,000","price":"6000000","url":"http://www.privateislandsonline.com/islands/north-saddle-caye"},{"title":"Big Gull Island","description":"Gull Island is a private 11.58-acre island located just minutes from the quaint fishing community of Sitka. The 5200 sq. ft. 4 bdrm, 4.5 bath home was architecturally drawn and custom built. The magnificent living room and master bedroom feature high vaulted ceilings, plenty of windows and a grand fireplace in each room. Many more features throughout!","imageUrl":"/img/BigGullIsland.jpg","priceFormatted":"$3,000,000","price":"3000000","url":"http://www.privateislandsonline.com/islands/big-gull-island"},{"title":"Arthur Island","description":"Located in the heart of one of southern Georgian Bay’s most vibrant and active communities, this classic and stunning 2-storey custom designed cottage with 3,600 sq. ft., provides a large family with 4 bedrooms and 4 baths.","imageUrl":"/img/ArthurIsland.jpg","priceFormatted":"$1,675,000","price":"1675000","url":"http://www.privateislandsonline.com/islands/arthur-island"},{"title":"Franquility Island","description":"This spectacular private island in Georgian Bay is nestled in a quiet bay of popular Franklin Island and is just a short 5 minute boat ride from the marina. This 3.64 acre property of Georgian Bay rock and picturesque wind swept pines features the main Viceroy cottage which was finished in 2009 and is 2600 sq. ft. of pure perfection.","imageUrl":"/img/FranquilityIsland.jpg","priceFormatted":"$1,295,000","price":"1295000","url":"http://www.privateislandsonline.com/islands/309c"},{"title":"Navy's Acre Island","description":"Unquestionably a turnkey property it features a gracious main cottage, a separate master cottage, three bedroom guest cottage and a four bunk waterside sleeping cabin. Designed by noted architect Peter Burton of C.A. Ventin Architect Ltd. and built to exacting standards by Paul Hannon Construction, the buildings, decks and boardwalks have been immaculately maintained and cared for.","imageUrl":"/img/NavysAcreIsland.jpg","priceFormatted":"$2,250,000","price":"2250000","url":"http://www.privateislandsonline.com/islands/navys-acre-island"},{"title":"Manchee Island","description":"The three season home of a noted local builder, this 5.2 acre private island, features a gracious custom built, three bedroom, two bath, main cottage, a 550 sq. ft. guest cabin, a covered, 2 slip boat shed, a dockside workshop, spacious terraced decking for waterside entertaining and generous docking for 6-8 boats.","imageUrl":"/img/MancheeIsland.jpg","priceFormatted":"$1,580,000","price":"1580000","url":"http://www.privateislandsonline.com/islands/manchee-island"},{"title":"Turn Island","description":"Turn Island is a dramatically diverse 82 acre substantial private island estate with 3km of shoreline located on the east end of Johnstone Strait where Johnstone Strait, Discovery Passage and Nodales Channel converge. A spectacular coastal setting! The shoreline ranges from gentle slopes down to walk-on beachfront to sheer granite bluffs, with a well-protected bay providing deep water moorage year round. ","imageUrl":"/img/TurnIsland.jpg","priceFormatted":"$3,900,000","price":"3900000","url":"http://www.privateislandsonline.com/islands/turn-island"},{"title":"Mowgli Island","description":"Mowgli Island is an exceptional opportunity to own an exclusive private island. Properties such as this rarely become available within the Southern Gulf Islands. The island is 9 acres in size with approximately 3400 linear feet of low bank waterfront with sandy beaches and a 50' L shaped dock for year round moorage of numerous vessels. ","imageUrl":"/img/MowgliIsland.jpg","priceFormatted":"$3,800,000","price":"3800000","url":"http://www.privateislandsonline.com/islands/mowgli-island12"},{"title":"Trump Island","description":"A once-in-a-lifetime opportunity! Own your own PRIVATE 29+ Acre Island in the San Juan's of the beautiful Pacific northwest! Trump Island is located between Decatur and Lopez Islands in the archipelago of 170 islands that make up the San Juan Islands. 360 degrees of water & forest views. 4230 feet of saltwater frontage with tidelands. ","imageUrl":"/img/TrumpIsland.jpg","priceFormatted":"$8,750,000","price":"8750000","url":"http://www.privateislandsonline.com/islands/trump-island"},{"title":"Schloss Island","description":"Schloss island is a lush 82 acre private island situated in Koprino Harbour, Quatsino Sound. The Island is located only 7 miles from the Pacific ocean between Winter Harbour and the village of Quatsino. ","imageUrl":"/img/SchlossIsland.jpg","priceFormatted":"$798,600","price":"798600","url":"http://www.privateislandsonline.com/islands/schloss-island3"},{"title":"Saddle Caye 5.9","description":"Ever dreamed of owning a piece of paradise? Saddle Caye is such an opportunity right here in spectacular Belize and one that should not be missed. Belize real estate does not get much better than this. Saddle Caye is located just 15 minutes from the 2nd largest barrier reef in the world and 45 minutes (9 miles) off the coast of the booming tourism destination of Placencia Peninsula in southern Belize.","imageUrl":"/img/SaddleCaye.jpg","priceFormatted":"$350,000","price":"350000","url":"http://www.privateislandsonline.com/islands/saddle-caye-59"},{"title":"Saddle Caye 2.19","description":"This parcel on Saddle Caye is approximately 2.190 acres and has previously been cleared and filled and a minor top fill with beach sand would be needed. A perfect paradise. This island has its own reef system and has a lagoon inside the reef system. This lagoon is about 90 to 100 feet deep and could serve as a marina for your paradise.","imageUrl":"/img/SaddleCaye.jpg","priceFormatted":"$425,000","price":"425000","url":"http://www.privateislandsonline.com/islands/saddle-caye-219"},{"title":"South Saddle Caye","description":"This wonderful, ready to be developed, 4.84 acre island, South Saddle Caye, is located approximately 15 minutes from Placencia and sits in the Lark Caye Range. The possibilities with this island are endless: private island resort, residential all island or even a fishing retreat.","imageUrl":"/img/SouthSaddleCaye.jpg","priceFormatted":"$800,000","price":"800000","url":"http://www.privateislandsonline.com/islands/south-saddle-caye2"},{"title":"North East Caye","description":"This is an incredible opportunity to own a rare piece of island conveniently located just 8 miles off the coast of Riversdale on the Placencia Peninsula. This property located on North East Caye is ideally situated near Saddle Caye, Cat Caye and Manatee Caye.","imageUrl":"/img/NorthEastCave.jpg","priceFormatted":"$400,000","price":"400000","url":"http://www.privateislandsonline.com/islands/north-east-caye"}],"selectedCategory":false};
 
 /***/ }),
 
@@ -23710,17 +23907,24 @@ _reactDom2.default.render(_react2.default.createElement(
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
 
 var _redux = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
 
 exports.default = (0, _redux.combineReducers)({
-	spendMoney: function spendMoney() {
-		var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
-		var action = arguments[1];
-		return state;
-	}
+  items: function items() {
+    var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+    return state;
+  },
+  categories: function categories() {
+    var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+    return state;
+  },
+  selectedCategory: function selectedCategory() {
+    var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+    return state;
+  }
 });
 
 /***/ }),

@@ -1,5 +1,7 @@
 import { combineReducers } from 'redux';
 
 export default combineReducers({
-  spendMoney: (state = []) => state,
+  items: (state = []) => state,
+  categories: (state = []) => state,
+  selectedCategory: (state = []) => state,
 });

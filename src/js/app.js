@@ -1,7 +1,13 @@
 import React from 'react';
+// import Billions from './containers/BillionsContainer';
+import Categories from './containers/CategoriesContainer';
 
 const App = function App() {
-  return <div><h2>React is working</h2></div>;
+  return (
+    <div>
+      <Categories />
+    </div>
+  );
 };
 
 export default App;

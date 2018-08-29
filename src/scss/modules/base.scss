@@ -1,4 +1,7 @@
-$base-font-color: #000;
+$base-font-color: #fff;
+$base-background-color: #080F16;
+$secondary-background-color: #0E1319;
+$highlight-background-color: #11161C;
 $base-font-size: 14px;
 $base-font-weight: 400;
 $base-line-height: 1.6;
@@ -7,6 +10,14 @@ $neat-grid: (
   columns: 12,
   gutter: 20px,
 );
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+	background: $base-background-color;
+}
 
 .app {
 	@include grid-container;

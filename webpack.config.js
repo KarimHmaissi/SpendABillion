@@ -1,10 +1,11 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+// const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const neatPaths = require('bourbon-neat').includePaths;
 
-const sassCongif = {
+const sassConfig = {
   loader: 'sass-loader',
   options: {
     sourceMap: true,
@@ -40,7 +41,16 @@ module.exports = {
         loader: [
           process.env.NODE_ENV !== 'production' ? 'style-loader' : MiniCssExtractPlugin.loader,
           'css-loader',
-          sassCongif,
+          sassConfig,
+        ],
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {},
+          },
         ],
       },
     ],
@@ -55,5 +65,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',
-    })],
+    }),
+    // new CopyWebpackPlugin([{ from: 'assets' }]),
+  ],
 };
