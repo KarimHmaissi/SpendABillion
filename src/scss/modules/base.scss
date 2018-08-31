@@ -2,6 +2,7 @@ $base-font-color: #fff;
 $base-background-color: #080F16;
 $secondary-background-color: #0E1319;
 $highlight-background-color: #11161C;
+$highlight-color: #39B54A;
 $base-font-size: 14px;
 $base-font-weight: 400;
 $base-line-height: 1.6;
@@ -17,6 +18,8 @@ $neat-grid: (
 
 body {
 	background: $base-background-color;
+
+  min-height: 2000px; //temp
 }
 
 .app {

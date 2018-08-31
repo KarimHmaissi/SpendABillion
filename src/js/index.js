@@ -7,12 +7,22 @@ import { createStore } from 'redux';
 import rootReducer from './reducers';
 import App from './app';
 
+import { buildArray } from './util';
+
 import mockData from './mockData.json';
+
+const initState = {
+  categories: mockData.categories,
+  items: [],
+  selectedCategory: 'false',
+  data: buildArray(),
+  amountLeft: 1000000000,
+};
 
 /* eslint-disable no-underscore-dangle */
 const store = createStore(
   rootReducer,
-  mockData,
+  initState,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
 );
 /* eslint-enable */

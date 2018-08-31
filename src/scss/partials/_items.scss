@@ -1,0 +1,48 @@
+.item__wrapper {
+
+}
+
+.item__list {
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.item {
+  margin-bottom: 40px;  background: $base-background-color;
+
+  button {
+    width: 100%;
+  }
+}
+
+.item__content {
+  padding: 40px;
+}
+
+.item__title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 0;
+  line-height: 1;
+}
+
+.item__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.item__description {
+
+}
+
+.item__price {
+  span {
+    color: $highlight-color;
+  }
+
+  color: #fff;
+  font-size: 18px;
+}

@@ -1,0 +1,82 @@
+.right-wrapper {
+  // margin-top: 80px;
+  // padding-top: 80px;
+}
+
+.clusterize-scroll {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+	max-height: 100vh;
+}
+
+#contentArea {
+	max-width: 640px;
+	/*margin: 0px auto;*/
+	margin-left: 54%;
+}
+
+.main-details {
+	max-width: 50%;
+	background: rgba(38, 41, 49, 0.78);
+	padding: 20px;
+	position: fixed;
+	right: 40px;
+	z-index: 999;
+	bottom: 0;
+	text-align: center;
+}
+
+/* ==========================================================================
+   Stack of money
+   ========================================================================== */
+
+
+.billions,
+.billions .billions__inner {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.billions li {
+	position: relative;
+
+}
+
+
+.billions .billions__inner {
+	display: inline-block;
+	width: 100%;
+}
+
+.billions .billions__inner li {
+	display: inline-block;
+	height: 40px;
+	width: calc(10% - 4px);
+	background-color: #49a049;
+	color: #fff;
+	border: 1px solid green;
+	vertical-align: text-bottom;
+	transition: background-color .25s ease-in-out,border-color .25s ease-in-out;
+}
+
+.billions .billions__inner .label {
+	position: absolute;
+	top: 2px;
+	left: 25px;
+	max-width: 50%;
+	margin: 0 auto;
+	z-index: 99;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	z-index: 99;
+	text-align: center;
+	margin-top: 6px;
+}
+
+.billions .billions__inner .spent {
+	background-color: rgba(73, 160, 73, 0.18);
+	border-color: rgba(73, 160, 73, 0.28);
+}

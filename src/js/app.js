@@ -1,11 +1,12 @@
 import React from 'react';
-// import Billions from './containers/BillionsContainer';
-import Categories from './containers/CategoriesContainer';
+import Billions from './containers/BillionsContainer';
+import CategoriesItems from './containers/CategoriesItemsContainer';
 
 const App = function App() {
   return (
     <div>
-      <Categories />
+      <CategoriesItems />
+      <Billions />
     </div>
   );
 };
