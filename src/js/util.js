@@ -1,4 +1,7 @@
-const numberWithCommas = x => x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+export const numberWithCommas = x => x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+
+export const camelToSpaces = x => x.replace(/([A-Z])/g, ' $1')
+  .replace(/^./, str => str.toUpperCase());
 
 export const buildArray = () => {
   const arrayStructure = [];

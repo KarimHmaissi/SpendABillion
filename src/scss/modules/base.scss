@@ -25,3 +25,7 @@ body {
 .app {
 	@include grid-container;
 }
+
+.green {
+  color: $highlight-color;
+}

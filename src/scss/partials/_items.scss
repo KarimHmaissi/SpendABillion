@@ -3,17 +3,24 @@
 }
 
 .item__list {
-  margin-top: 20px;
+  margin-top: 70px;
   list-style-type: none;
   padding-left: 0;
 }
 
 .item {
-  margin-bottom: 40px;  background: $base-background-color;
+  max-width: 440px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background: $base-background-color;
 
   button {
     width: 100%;
   }
+}
+
+.item--purchased {
+  opacity: .2;
 }
 
 .item__content {
@@ -45,4 +52,33 @@
 
   color: #fff;
   font-size: 18px;
+}
+
+.item__back {
+  display: flex;
+  flex-direction: row;
+  padding: 0 60px;
+  background: $secondary-background-color;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 50%;
+  z-index: 99;
+}
+
+.back__category,
+.back__button {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.back__category {
+  margin-left: auto;
+  color: #fff;
+}
+
+.back__button {
+  color: $highlight-color;
+  cursor: pointer;
 }

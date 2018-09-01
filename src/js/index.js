@@ -13,7 +13,7 @@ import mockData from './mockData.json';
 
 const initState = {
   categories: mockData.categories,
-  items: [],
+  items: mockData.items,
   selectedCategory: 'false',
   data: buildArray(),
   amountLeft: 1000000000,

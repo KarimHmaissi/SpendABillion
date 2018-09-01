@@ -12,8 +12,9 @@ const Item = ({
   priceFormatted,
   price,
   onClick,
+  purchased,
 }) => (
-  <li className="item">
+  <li className={`item ${purchased ? 'item--purchased' : ''}`}>
     <div className="item__image">
       <img src={getImage(imageUrl)} alt={title} />
     </div>
@@ -27,13 +28,15 @@ const Item = ({
         <span>$ </span>
         {priceFormatted}
       </p>
-      <button type="button" className="primary" onClick={() => onClick(+price, id)}>Buy</button>
+      {purchased
+        || <button type="button" className="primary" onClick={() => onClick(+price, id)}>Buy</button>}
     </div>
   </li>
 );
 
 Item.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
+  purchased: PropTypes.bool.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,

@@ -14,17 +14,34 @@ const renderCategoryOrItem = (
 ) => {
   if (selectedCategory !== 'false') {
     return (
-      <ItemList items={items} closeCategory={closeCategory} buySomething={buySomething} />
+      <ItemList
+        selectedCategory={selectedCategory}
+        items={items}
+        closeCategory={closeCategory}
+        buySomething={buySomething}
+      />
     );
   }
-  return <CategoryList openCategory={openCategory} categories={categories} />;
+  return (
+    <CategoryList
+      openCategory={openCategory}
+      categories={categories}
+    />
+  );
 };
 
 const LeftWrapper = ({
-  categories, items, selectedCategory, openCategory, closeCategory,
+  categories, items, selectedCategory, openCategory, closeCategory, buySomething,
 }) => (
   <div className="left-wrapper">
-    {renderCategoryOrItem(selectedCategory, items, categories, openCategory, closeCategory)}
+    {renderCategoryOrItem(
+      selectedCategory,
+      items,
+      categories,
+      openCategory,
+      closeCategory,
+      buySomething,
+    )}
   </div>
 );
 
@@ -34,6 +51,7 @@ LeftWrapper.propTypes = {
   selectedCategory: PropTypes.string.isRequired,
   openCategory: PropTypes.func.isRequired,
   closeCategory: PropTypes.func.isRequired,
+  buySomething: PropTypes.func.isRequired,
 };
 
 export default LeftWrapper;

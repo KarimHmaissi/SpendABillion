@@ -1,0 +1,21 @@
+$nav-height: 70px;
+
+body {
+  padding-top: $nav-height;
+}
+
+.left-wrapper {
+  padding-top: $nav-height;
+}
+
+.nav {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #11161C;
+  max-height: $nav-height;
+  height: $nav-height;
+}

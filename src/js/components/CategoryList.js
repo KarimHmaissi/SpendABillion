@@ -8,7 +8,13 @@ const CategoryList = ({ categories, openCategory }) => (
     <p>Select a category of thing</p>
     <ul className="category__list">
       {categories.map(
-        cat => <Category {...cat} key={cat.id} onClick={() => openCategory(cat.id)} />,
+        cat => (
+          <Category
+            {...cat}
+            key={cat.id}
+            onClick={() => openCategory(cat.id)}
+          />
+        ),
       )}
     </ul>
   </div>
