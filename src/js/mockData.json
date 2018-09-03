@@ -29,36 +29,6 @@
             "id":"watches",
             "title":"Watches",
             "imgSrc":"watches"
-        },
-        {
-            "id":"privateIslands",
-            "title":"Private Islands",
-            "imgSrc":"privateIslands"
-        },
-        {
-            "id":"luxuryCars",
-            "title":"Luxury Cars",
-            "imgSrc":"luxuryCars"
-        },
-        {
-            "id":"sportsTeams",
-            "title":"Sports Teams",
-            "imgSrc":"sportsTeams"
-        },
-        {
-            "id":"holidays",
-            "title":"Holidays",
-            "imgSrc":"holidays"
-        },
-        {
-            "id":"privateJets",
-            "title":"Private Jets",
-            "imgSrc":"privateJets"
-        },
-        {
-            "id":"watches",
-            "title":"Watches",
-            "imgSrc":"watches"
         }
     ],
     "items":[

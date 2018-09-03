@@ -4,8 +4,6 @@ import { combineReducers } from 'redux';
 export default combineReducers({
   items: (state = [], action) => {
     switch (action.type) {
-      // case 'OPEN_CATEGORY':
-      //   return state.items.filter(item => action.id === item.category);
       case 'BUY_SOMETHING':
         return state.map(
           item => (item.id === action.productId ? { ...item, purchased: true } : item),
@@ -30,6 +28,14 @@ export default combineReducers({
     switch (action.type) {
       case 'BUY_SOMETHING':
         return state - action.amount;
+      default:
+        return state;
+    }
+  },
+  leftActive: (state = false, action) => {
+    switch (action.type) {
+      case 'SHOW_LEFT':
+        return action.active;
       default:
         return state;
     }

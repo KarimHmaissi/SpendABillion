@@ -1,14 +1,14 @@
 import React from 'react';
 import Nav from './containers/NavContainer';
-import Billions from './containers/BillionsContainer';
-import CategoriesItems from './containers/CategoriesItemsContainer';
+import LeftWrapper from './containers/LeftWrapperContainer';
+import RightWrapper from './containers/RightWrapperContainer';
 
 const App = function App() {
   return (
     <div>
       <Nav />
-      <CategoriesItems />
-      <Billions />
+      <LeftWrapper />
+      <RightWrapper />
     </div>
   );
 };

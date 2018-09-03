@@ -17,6 +17,7 @@ const initState = {
   selectedCategory: 'false',
   data: buildArray(),
   amountLeft: 1000000000,
+  leftActive: false,
 };
 
 /* eslint-disable no-underscore-dangle */

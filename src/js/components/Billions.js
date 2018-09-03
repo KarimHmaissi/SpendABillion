@@ -14,12 +14,10 @@ class Billions extends React.Component {
 
   render() {
     return (
-      <div className="right-wrapper">
-        <div id="scrollArea" className="clusterize-scroll">
-          <ul id="contentArea" className="clusterize-content billions">
-            <li className="clusterize-no-data">Loading data…</li>
-          </ul>
-        </div>
+      <div id="scrollArea" className="clusterize-scroll">
+        <ul id="contentArea" className="clusterize-content billions">
+          <li className="clusterize-no-data">Loading data…</li>
+        </ul>
       </div>
     );
   }

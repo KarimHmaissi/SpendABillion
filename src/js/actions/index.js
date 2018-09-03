@@ -13,3 +13,8 @@ export const buySomething = (amount, productId) => ({
   amount,
   productId,
 });
+
+export const showLeft = active => ({
+  type: 'SHOW_LEFT',
+  active,
+});
