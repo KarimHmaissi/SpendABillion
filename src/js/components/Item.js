@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Description from './Description';
+
 const imageReq = require.context('../../../assets', false, /\.(png|jpe?g|svg)$/);
 const getImage = i => imageReq(`./${i}.jpg`);
 
@@ -20,10 +22,7 @@ const Item = ({
     </div>
     <div className="item__content">
       <h3 className="item__title">{title}</h3>
-      <p className="item__description">
-        {description.substring(0, 140)}
-        ...
-      </p>
+      <Description description={description} />
       <p className="item__price">
         <span>$ </span>
         {priceFormatted}

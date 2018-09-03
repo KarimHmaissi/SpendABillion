@@ -41,8 +41,9 @@
   height: auto;
 }
 
-.item__description {
-
+.item__description a {
+  color: #fff;
+  cursor: pointer;
 }
 
 .item__price {
@@ -63,7 +64,7 @@
   top: 70px;
   left: 0;
   width: 50%;
-  z-index: 99;
+  z-index: 2;
 }
 
 .back__category,
@@ -81,4 +82,10 @@
 .back__button {
   color: $highlight-color;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+  .item__back {
+    width: 100%;
+  }
 }

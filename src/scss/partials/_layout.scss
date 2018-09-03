@@ -16,3 +16,26 @@ html, body {
   overflow: scroll;
   color: #868C94;
 }
+
+
+.right-wrapper {
+  max-width: 640px;
+  margin-top: 0;
+	margin-left: 54%;
+}
+
+@media only screen and (max-width: 720px) {
+  .left-wrapper {
+    max-width: 100%;
+    width: 100%;
+    z-index: 3;
+    transition: transform 0.25s ease-in-out;
+  }
+
+  .right-wrapper {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 5%;
+    z-index: 2;
+  }
+}

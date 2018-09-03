@@ -10,22 +10,16 @@
 	max-height: 100vh;
 }
 
-#contentArea {
-	max-width: 640px;
-  margin-top: 0;
-	margin-left: 54%;
-}
-
-.main-details {
-	max-width: 50%;
-	background: rgba(38, 41, 49, 0.78);
-	padding: 20px;
-	position: fixed;
-	right: 40px;
-	z-index: 999;
-	bottom: 0;
-	text-align: center;
-}
+// .main-details {
+// 	max-width: 50%;
+// 	background: rgba(38, 41, 49, 0.78);
+// 	padding: 20px;
+// 	position: fixed;
+// 	right: 40px;
+// 	z-index: 1;
+// 	bottom: 0;
+// 	text-align: center;
+// }
 
 /* ==========================================================================
    Stack of money
@@ -67,11 +61,10 @@
 	left: 25px;
 	max-width: 50%;
 	margin: 0 auto;
-	z-index: 99;
 	font-size: 16px;
 	font-weight: 300;
 	color: #fff;
-	z-index: 99;
+	z-index: 2;
 	text-align: center;
 	margin-top: 6px;
 }
