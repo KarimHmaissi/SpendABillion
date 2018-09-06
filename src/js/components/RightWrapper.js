@@ -13,7 +13,7 @@ const RightWrapper = ({ data, showLeft }) => (
         type="button"
         onClick={() => { showLeft(true); }}
       >
-        Spend your billion. Click me
+        Open shop
       </button>
     </div>
   </div>

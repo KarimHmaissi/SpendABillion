@@ -18,6 +18,7 @@ html, body {
 }
 
 .right-wrapper {
+  position: relative;
   max-width: 640px;
   margin-top: 0;
 	margin-left: 54%;
@@ -41,7 +42,7 @@ html, body {
     }
   }
 
-  .right-wrapper {
+  .right-wrapper {;
     max-width: 100%;
     width: 100%;
     margin-left: 5%;
@@ -54,26 +55,28 @@ html, body {
   }
 
   .show-left {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     background: $base-background-color;
     width: 100%;
     height: 70px;
-    z-index: 2;
+    z-index: 4;
     padding: 20px 40px;
     text-align: center;
   }
 
-  .show-left__button {
-
-  }
-
   .close-left {
-
+    padding: 20px;
+    cursor: pointer;
+    position: fixed;
+    right: 1%;
+    top: 50px;
+    z-index: 3;
   }
 
   .close-left__button {
-
+    color: #fff;
+    font-size: 34px;
   }
 }

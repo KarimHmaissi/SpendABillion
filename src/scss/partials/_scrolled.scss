@@ -1,0 +1,58 @@
+.scrolled {
+  position: absolute;
+  bottom: 80px;;
+  right: 80px;
+  z-index: 3;
+  background: #080f16;
+  padding: 10px 20px;
+}
+
+.scrolled__box {
+  height: 200px;
+  width: 100px;
+  margin: 0 auto;
+  border: 4px solid #0A9B32;
+  vertical-align: top;
+  position: relative;
+}
+
+.scrolled__label,
+.scrolled__percent {
+  color: #fff;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.scrolled__label {
+  color: #868C94;
+}
+
+.scrolled__left {
+  background-color: #39B54A;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+}
+
+.scrolled__progress {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background: white;
+  z-index: 99;
+}
+
+@media only screen and (max-width: 720px) {
+  .scrolled {
+    bottom: 148px;
+    right: 5%;
+  }
+}

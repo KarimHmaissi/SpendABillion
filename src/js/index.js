@@ -1,5 +1,4 @@
 import '../scss/index.scss';
-// import cluster from 'clusterize.js';
 import React from 'react';
 import reactDom from 'react-dom';
 import { Provider } from 'react-redux';
