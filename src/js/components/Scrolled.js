@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import ScrollManager from '../services/ScrollManager';
 
@@ -33,7 +34,7 @@ class Scrolled extends React.Component {
         </p>
 
         <div className="scrolled__box">
-          <div className="scrolled__left" style={{ height: `${this.state.percent.toPrecision(4)}%` }} />
+          <div className="scrolled__left" style={{ height: `${this.props.amountLeft / 10000000}%` }} />
           <div className="scrolled__progress" style={{ top: `${this.state.percent.toPrecision(4)}%` }} />
         </div>
 
@@ -41,5 +42,9 @@ class Scrolled extends React.Component {
     );
   }
 }
+
+Scrolled.propTypes = {
+  amountLeft: PropTypes.number.isRequired,
+};
 
 export default Scrolled;

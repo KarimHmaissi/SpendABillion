@@ -1,5 +1,4 @@
 import { combineReducers } from 'redux';
-// import mockData from '../mockData.json';
 
 export default combineReducers({
   items: (state = [], action) => {

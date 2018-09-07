@@ -14,11 +14,10 @@ class Billions extends React.Component {
     });
   }
 
-  // <h2>{`Percentage scrolled: ${percentage.toPrecision(2)}%.`}</h2>
   render() {
     return (
       <div className="billions-container">
-        <Scrolled />
+        <Scrolled amountLeft={this.props.amountLeft} />
         <div id="scrollArea" className="clusterize-scroll">
           <ul id="contentArea" className="clusterize-content billions">
             <li className="clusterize-no-data">Loading data…</li>
@@ -30,6 +29,7 @@ class Billions extends React.Component {
 }
 
 Billions.propTypes = {
+  amountLeft: PropTypes.number.isRequired,
   data: PropTypes.array.isRequired,
 };
 
