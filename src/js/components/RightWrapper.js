@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Billions from './Billions';
+import BillionsContainer from '../containers/BillionsContainer';
 
-const RightWrapper = ({ data, amountLeft, showLeft }) => (
+const RightWrapper = ({ showLeft }) => (
   <div className="right-wrapper">
-    <Billions data={data} amountLeft={amountLeft} />
+    <BillionsContainer />
     <div className="show-left">
       <button
         className="primary show-left__button"
@@ -20,8 +20,6 @@ const RightWrapper = ({ data, amountLeft, showLeft }) => (
 );
 
 RightWrapper.propTypes = {
-  data: PropTypes.array.isRequired,
-  amountLeft: PropTypes.number.isRequired,
   showLeft: PropTypes.func.isRequired,
 };
 

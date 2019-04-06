@@ -16,7 +16,6 @@ const Nav = ({ amountLeft }) => (
           default={1000000000}
           frameDuration={16}
           stepPrecision={100}
-
           formatValue={n => numberWithCommas(Math.round(n))}
         />
       </span>

@@ -13,6 +13,7 @@
   "dependencies": {
     "bourbon-neat": "^3.0.0",
     "clusterize.js": "^0.18.1",
+    "jquery": "^3.3.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-animated-number": "^0.4.4",

@@ -1,17 +1,51 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Clusterize from 'clusterize.js';
+import $ from 'jquery';
+
+import {
+  getMarkupArray,
+  getDataArray,
+  updateDataArray,
+  getBillion,
+} from '../util';
 
 import Scrolled from './Scrolled';
 
 class Billions extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.dataArray = getDataArray();
+    this.markupArray = getMarkupArray(this.dataArray);
+  }
+
   componentDidMount() {
     this.clusterize = new Clusterize({
-      rows: this.props.data,
+      rows: this.markupArray,
       scrollId: 'scrollArea',
       contentId: 'contentArea',
       rows_in_block: 32,
     });
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.amountLeft !== this.props.amountLeft) {
+      this.updateBillions(prevProps.amountLeft, this.props.amountLeft);
+    }
+  }
+
+  updateBillions(previousAmount, updatedAmount) {
+    const amountToDestroy = previousAmount - updatedAmount;
+    this.dataArray = updateDataArray(this.dataArray, amountToDestroy, previousAmount);
+    this.clusterize.update(getMarkupArray(this.dataArray));
+
+    const rowHeight = 40;
+    const rowsToScroll = ((amountToDestroy + (getBillion() - updatedAmount)) / 100000) * rowHeight;
+
+    $('#scrollArea').animate({
+      scrollTop: rowsToScroll,
+    }, 2000);
   }
 
   render() {
@@ -30,7 +64,6 @@ class Billions extends React.Component {
 
 Billions.propTypes = {
   amountLeft: PropTypes.number.isRequired,
-  data: PropTypes.array.isRequired,
 };
 
 export default Billions;

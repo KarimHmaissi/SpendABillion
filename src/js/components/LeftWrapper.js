@@ -48,7 +48,7 @@ const LeftWrapper = ({
         role="button"
         onClick={() => { showLeft(false); }}
       >
-        X
+      X
       </a>
     </div>
     {renderCategoryOrItem(

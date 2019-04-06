@@ -4,7 +4,6 @@ import { showLeft } from '../actions';
 import RightWrapper from '../components/RightWrapper';
 
 const mapStateToProps = state => ({
-  data: state.data,
   amountLeft: state.amountLeft,
 });
 
