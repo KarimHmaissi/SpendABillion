@@ -19,9 +19,8 @@ html, body {
 
 .right-wrapper {
   position: relative;
-  max-width: 640px;
   margin-top: 0;
-	margin-left: 54%;
+	margin-left: 50%;
 }
 
 .show-left,
@@ -42,7 +41,7 @@ html, body {
     }
   }
 
-  .right-wrapper {;
+  .right-wrapper {
     max-width: 100%;
     width: 100%;
     margin-left: 5%;

@@ -25,6 +25,15 @@
    Stack of money
    ========================================================================== */
 
+.billions-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 640px;
+}
 
 .billions,
 .billions .billions__inner {

@@ -40,8 +40,8 @@ class Billions extends React.Component {
     this.dataArray = updateDataArray(this.dataArray, amountToDestroy, previousAmount);
     this.clusterize.update(getMarkupArray(this.dataArray));
 
-    const rowHeight = 40;
-    const rowsToScroll = ((amountToDestroy + (getBillion() - updatedAmount)) / 100000) * rowHeight;
+    const rowHeight = 42;
+    const rowsToScroll = ((amountToDestroy + (getBillion() - previousAmount)) / 100000) * rowHeight;
 
     $('#scrollArea').animate({
       scrollTop: rowsToScroll,
