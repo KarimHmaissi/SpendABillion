@@ -1,0 +1,31 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #080f16d4;
+  z-index: 999;
+  display: block;
+}
+
+.modal {
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    width: 500px;
+    background: #080f16;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 60px;
+    
+    &__title {
+
+    }
+
+    &__description {
+
+    }
+}

@@ -11,6 +11,10 @@ const renderCategoryOrItem = (
   openCategory,
   closeCategory,
   buySomething,
+  loadMore,
+  selectedCategoryPageNumber,
+  showLoadMore,
+  showBuyButton,
 ) => {
   if (selectedCategory !== 'false') {
     return (
@@ -19,6 +23,10 @@ const renderCategoryOrItem = (
         items={items}
         closeCategory={closeCategory}
         buySomething={buySomething}
+        loadMore={loadMore}
+        showLoadMore={showLoadMore}
+        showBuyButton={showBuyButton}
+        selectedCategoryPageNumber={selectedCategoryPageNumber}
       />
     );
   }
@@ -34,11 +42,15 @@ const LeftWrapper = ({
   categories,
   items,
   selectedCategory,
+  selectedCategoryPageNumber,
   openCategory,
   closeCategory,
   buySomething,
   showLeft,
   leftActive,
+  loadMore,
+  showLoadMore,
+  showBuyButton,
 }) => (
   <div className={`left-wrapper ${leftActive ? 'active' : ''}`}>
     <div className="close-left">
@@ -58,6 +70,10 @@ const LeftWrapper = ({
       openCategory,
       closeCategory,
       buySomething,
+      loadMore,
+      selectedCategoryPageNumber,
+      showLoadMore,
+      showBuyButton,
     )}
   </div>
 );
@@ -65,9 +81,13 @@ const LeftWrapper = ({
 LeftWrapper.propTypes = {
   categories: PropTypes.array.isRequired,
   items: PropTypes.array.isRequired,
+  showLoadMore: PropTypes.bool.isRequired,
+  showBuyButton: PropTypes.bool.isRequired,
   selectedCategory: PropTypes.string.isRequired,
+  selectedCategoryPageNumber: PropTypes.number.isRequired,
   leftActive: PropTypes.bool.isRequired,
   openCategory: PropTypes.func.isRequired,
+  loadMore: PropTypes.func.isRequired,
   closeCategory: PropTypes.func.isRequired,
   buySomething: PropTypes.func.isRequired,
   showLeft: PropTypes.func.isRequired,

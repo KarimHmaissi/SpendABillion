@@ -7,7 +7,7 @@ const imageReq = require.context('../../../assets', false, /\.(png|jpe?g|svg)$/)
 const getImage = i => imageReq(`./${i}.jpg`);
 
 const Item = ({
-  id,
+  _id,
   title,
   description,
   imageUrl,
@@ -15,8 +15,9 @@ const Item = ({
   price,
   onClick,
   purchased,
+  showBuyButton,
 }) => (
-  <li className={`item ${purchased ? 'item--purchased' : ''}`}>
+  <li className={`item ${purchased && showBuyButton ? 'item--purchased' : ''}`}>
     <div className="item__image">
       <img src={getImage(imageUrl)} alt={title} />
     </div>
@@ -27,15 +28,16 @@ const Item = ({
         <span>$ </span>
         {priceFormatted}
       </p>
-      {purchased
-        || <button type="button" className="primary" onClick={() => onClick(+price, id)}>Buy</button>}
+      {showBuyButton
+        && <button type="button" className="primary" onClick={() => onClick(+price, _id)}>Buy</button>}
     </div>
   </li>
 );
 
 Item.propTypes = {
-  id: PropTypes.number.isRequired,
+  _id: PropTypes.number.isRequired,
   purchased: PropTypes.bool.isRequired,
+  showBuyButton: PropTypes.bool.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,

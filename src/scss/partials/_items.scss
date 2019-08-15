@@ -84,6 +84,11 @@
   cursor: pointer;
 }
 
+.item__loadMore button {
+  display: block;
+  margin: 45px auto;
+}
+
 @media only screen and (max-width: 720px) {
   .item__back {
     width: 100%;

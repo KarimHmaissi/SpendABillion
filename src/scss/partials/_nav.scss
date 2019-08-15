@@ -4,6 +4,9 @@ body {
   padding-top: $nav-height;
 }
 
+.brand {
+  margin-right: auto;
+}
 .left-wrapper {
   padding-top: $nav-height;
 }
@@ -15,7 +18,21 @@ body {
   left: 0;
   right: 0;
   width: 100%;
+  padding: 0 4rem;
   background: #11161C;
   max-height: $nav-height;
   height: $nav-height;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.owned {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-left: auto;
+
 }
