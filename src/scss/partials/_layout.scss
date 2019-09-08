@@ -23,9 +23,19 @@ html, body {
 	margin-left: 50%;
 }
 
-.show-left,
 .close-left {
   display: none;
+}
+
+.show-left {
+  position: absolute;
+  bottom: 130px;
+  left: 70px;
+  background: $base-background-color;
+  height: 70px;
+  z-index: 4;
+  padding: 20px 40px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 720px) {
@@ -54,15 +64,10 @@ html, body {
   }
 
   .show-left {
-    position: fixed;
+    width: 100%;
     bottom: 0;
     left: 0;
-    background: $base-background-color;
-    width: 100%;
-    height: 70px;
-    z-index: 4;
-    padding: 20px 40px;
-    text-align: center;
+    position: fixed;
   }
 
   .close-left {

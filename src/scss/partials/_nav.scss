@@ -6,7 +6,19 @@ body {
 
 .brand {
   margin-right: auto;
+  font-weight: 100;
+  font-size: 1.4rem;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  span {
+    color: #39B54A;
+  }
 }
+
 .left-wrapper {
   padding-top: $nav-height;
 }
@@ -35,4 +47,16 @@ body {
   text-align: center;
   margin-left: auto;
 
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .owned {
+    display: none;
+  }
 }

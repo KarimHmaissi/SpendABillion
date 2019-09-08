@@ -6,7 +6,7 @@ import { numberWithCommas } from '../util';
 
 const Nav = ({ amountLeft, ownedCount, viewOwned }) => (
   <nav className="nav">
-    <h3 className="brand">Evil<span>Turtle</span></h3>
+    <h3 className="brand"><a href="/">Evil<span>Turtle</span></a></h3>
     <h2 className="amount-left__wrapper">
       <span className="amount-left__text">Amount left </span>
       <span className="green">$ </span>

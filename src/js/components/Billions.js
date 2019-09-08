@@ -16,6 +16,10 @@ class Billions extends React.Component {
   constructor(props) {
     super(props);
 
+    this.state = {
+      showWarning: true,
+    };
+
     this.dataArray = getDataArray();
     this.markupArray = getMarkupArray(this.dataArray);
   }
@@ -27,6 +31,10 @@ class Billions extends React.Component {
       contentId: 'contentArea',
       rows_in_block: 32,
     });
+
+    setTimeout(() => {
+      this.setState({showWarning: false});
+    }, 10000);
   }
 
   componentDidUpdate(prevProps) {
@@ -51,6 +59,11 @@ class Billions extends React.Component {
   render() {
     return (
       <div className="billions-container">
+        {
+          this.state.showWarning ? (<div className="scroll-warning">
+            <h3>Scroll down here</h3>
+          </div>) : null
+        }
         <Scrolled amountLeft={this.props.amountLeft} />
         <div id="scrollArea" className="clusterize-scroll">
           <ul id="contentArea" className="clusterize-content billions">

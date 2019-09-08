@@ -1,0 +1,25 @@
+
+@media only screen and (min-width: 721px) {
+  .left-wrapper {
+    transform: translateX(-100%);
+    transition: transform 0.25s ease-in-out;
+
+    &.active {
+      transform: translateX(0);
+    }
+    
+  }
+
+  .right-wrapper {
+    margin-left: 0;
+    transition: margin-left 0.25s ease-in-out;
+
+    &.active {
+      margin-left: 50% !important;
+
+      .show-left {
+        display: none;
+      }
+    }  
+  }
+}

@@ -3,6 +3,7 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
+  margin-top: 40px;
 }
 
 .category__list {
@@ -23,7 +24,7 @@
   padding-top: 30px;
   margin: 10px;
   cursor: pointer;
-  background-color: $base-background-color;
+  background-color: #0E1319;
   display: flex;
   flex-direction: column;
   justify-content: center;

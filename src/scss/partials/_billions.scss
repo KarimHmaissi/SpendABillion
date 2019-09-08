@@ -26,20 +26,25 @@
    ========================================================================== */
 
 .billions-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	width: 100%;
-	margin: 0 auto;
-	max-width: 640px;
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	// flex-direction: row;
+	// width: 100%;
+	// margin: 0 auto;
+	// max-width: 640px;
+}
+
+.billions {
+	max-width: 540px;
+	margin: 0px auto;
 }
 
 .billions,
 .billions .billions__inner {
 	list-style: none;
 	padding-left: 0;
-	margin-left: 0;
+	// margin-left: 0;
 }
 
 .billions li {

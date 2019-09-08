@@ -5,6 +5,7 @@ import RightWrapper from '../components/RightWrapper';
 
 const mapStateToProps = state => ({
   amountLeft: state.amountLeft,
+  leftActive: state.leftActive,
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -13,3 +13,9 @@
 .amount-left__number {
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 540px) {
+  .amount-left__number {
+    font-size: 1.2rem;
+  }
+}

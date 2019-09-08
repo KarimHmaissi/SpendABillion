@@ -1,0 +1,18 @@
+.scroll-warning {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  background: #080f16;
+  padding: 10px 20px;
+  max-width: 300px;
+  margin: 0 auto;
+
+  h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+}

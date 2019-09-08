@@ -1,6 +1,6 @@
 $base-font-color: #fff;
 $base-background-color: #080F16;
-$secondary-background-color: #0E1319;
+$secondary-background-color: #080f15;
 $highlight-background-color: #11161C;
 $highlight-color: #39B54A;
 $base-font-size: 14px;
@@ -23,7 +23,9 @@ body {
 }
 
 .app {
-	@include grid-container;
+  @include grid-container;
+  max-height: 100vh;
+  overflow: scroll;
 }
 
 .green {

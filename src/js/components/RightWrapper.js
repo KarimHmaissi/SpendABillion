@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 import BillionsContainer from '../containers/BillionsContainer';
 
-const RightWrapper = ({ showLeft }) => (
-  <div className="right-wrapper">
+const RightWrapper = ({ showLeft, leftActive }) => (
+  <div className={`right-wrapper ${leftActive ? 'active' : ''}`}>
     <BillionsContainer />
     <div className="show-left">
       <button
@@ -21,6 +21,7 @@ const RightWrapper = ({ showLeft }) => (
 
 RightWrapper.propTypes = {
   showLeft: PropTypes.func.isRequired,
+  leftActive: PropTypes.bool.isRequired,
 };
 
 export default RightWrapper;
