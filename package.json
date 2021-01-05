@@ -11,7 +11,7 @@
   "author": "Karim Hmaissi",
   "license": "",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bourbon-neat": "^3.0.0",
     "clusterize.js": "^0.18.1",
     "jquery": "^3.3.1",
